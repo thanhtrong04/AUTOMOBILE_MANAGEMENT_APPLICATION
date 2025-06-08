@@ -1,7 +1,7 @@
 <%-- 
-    Document   : create-car
-    Created on : Jun 4, 2025, 1:57:11 PM
-    Author     : admin
+    Document   : car-detail.jsp
+    Created on : Jun 8, 2025, 1:57:32 PM
+    Author     : Le Thanh Trong
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -16,19 +16,37 @@
     <title>Create Car</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
     <link href="css/base.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     
 </head>
 
 <body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: auto;
+                margin: 0;
+        }
+
+        body{
+            margin: 0;
+            background: #f8f9fa;
+        }
+    </style>
 
     <!-- Header -->
-    <header class="header">
+    <header class="header" style="background: #fff; border-bottom: 1px solid #dee2e6; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
         <div class="container-fluid">
-            <div class="inner-wrap">
+            <div class="inner-wrap" style="padding: 8px;">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="./home">AutomobileWebApp</a>
+                    <a class="navbar-brand" href="./home" style="font-size: 25px;">AutomobileWebApp</a>
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -48,29 +66,29 @@
     <!-- Create Car -->
     <div class="section-three">
         <div class="container">
-            <div class="inner-wrap">
+            <div class="inner-wrap" style="padding: 20px 200px;">
                 <section class="form-section">
                     <h4 class="mb-4 text-center">Add New Car</h4>
-                    <form>
+                    <form action="create-new" method="POST">
                         <div class="form-group">
                             <label for="carId">CarId</label>
-                            <input type="number" class="form-control" id="carId" placeholder="1">
+                            <input type="text" class="form-control" id="carId" name="txtCarID" placeholder="1">
                         </div>
                         <div class="form-group">
                             <label for="carName">CarName</label>
-                            <input type="text" class="form-control" id="carName" placeholder="Civic">
+                            <input type="text" class="form-control" id="carName" name="txtCarName" placeholder="Civic">
                         </div>
                         <div class="form-group">
                             <label for="manufacturer">Manufacturer</label>
-                            <input type="text" class="form-control" id="manufacturer" placeholder="Honda">
+                            <input type="text" class="form-control" id="manufacturer" name="txtManufacturer" placeholder="Honda">
                         </div>
                         <div class="form-group">
                             <label for="price">Price</label>
-                            <input type="number" class="form-control" id="price" placeholder="24000.00">
+                            <input type="text" class="form-control" id="price" name="txtPrice" placeholder="24000.00">
                         </div>
                         <div class="form-group">
                             <label for="releasedYear">ReleasedYear</label>
-                            <input type="number" class="form-control" id="releasedYear" value="2025">
+                            <input type="text" class="form-control" id="releasedYear" name="txtReleasedYear" value="2020">
                         </div>
 
 
@@ -86,7 +104,10 @@
 
     <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <script src="js/jquery.slim.min.js" type="text/javascript"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>    
+   
 </body>
 
 </html>
