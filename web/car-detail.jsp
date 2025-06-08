@@ -93,8 +93,8 @@
                     </div>
                 </div>
                 <div class="card-footer" style="background: #fff; padding-left: 5px;">
-                    <a href="#" class="col-sm-1">Edit</a> |
-                    <a href="./home" class="col-sm-1">Back to List</a>
+                    <a href="<%= request.getContextPath() %>/update-car?id=<%= car.getCarID() %>" class="col-sm-1">Edit</a>
+                    <a href="<%= request.getContextPath() %>/home" class="col-sm-1">Back to List</a>
                 </div>
             </div>
         </div>
