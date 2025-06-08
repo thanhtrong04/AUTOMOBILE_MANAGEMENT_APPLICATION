@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/src/java/controllers/CarsController.java</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/WEB-INF/web.xml</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/css/style.css</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/src/java/models/dao/CarDAO.java</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/src/java/services/CarsService.java</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/src/java/models/dto/CarDTO.java</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/create-car.jsp</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/index.jsp</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/src/java/utils/DbUtils.java</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/css/bootstrap.min.css</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/car-detail.html</file>
+            <file>file:/D:/Document_FPT/SE_SU_25/PRJ301/ws-workshop/AUTOMOBILE_MANAGEMENT_APPLICATION/web/css/base.css</file>
+        </group>
+    </open-files>
+</project-private>

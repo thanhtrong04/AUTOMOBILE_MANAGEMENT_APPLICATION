@@ -1,0 +1,71 @@
+
+body{
+    background: #f8f9fa;
+}
+/* Header */
+.header{
+    background: #fff;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+.header .inner-wrap{
+    padding: 8px;
+}
+
+.header .navbar-brand{
+    font-size: 25px;
+}
+/* End Header */
+
+/* Section One */
+.section-one{
+    padding: 8px 50px;
+}
+
+.section-one .inner-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-one .btn-create{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+/* End Section One */
+
+/* Section Two */
+.section-two{
+    padding: 8px 50px;
+}
+/* End Section Two */
+
+
+/* Create Car */
+.section-three .inner-wrap{
+    padding: 20px 200px;
+}
+/* End Create Car */
+
+/* Detail Car */
+.car-detail .card{
+    border: none;
+}
+.car-detail .card-header, .car-detail .card-footer{
+    background: #fff;
+
+}
+
+.car-detail .card-header h5{
+    font-size: 25px;
+}
+
+.car-detail .card-header span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.car-detail .card-footer{
+    padding-left: 5px;
+}
+/* End Detail Car */
